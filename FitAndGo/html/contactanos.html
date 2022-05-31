@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="/assets/css/style-contact.css"/>
+    <link rel="stylesheet" href="/assets/bulma/css/bulma.css"/>
+    <script src="/assets/js/index.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/html/main.html">
+        <img src="/assets/images/logon.png" width="40" height="50">
+      </a>
+
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Rutinas
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a href="/html/rutinas/push.html"class="navbar-item">
+              Push
+            </a>
+            <a href="/html/rutinas/pull.html"class="navbar-item">
+              Pull
+            </a>
+            <a href="/html/rutinas/leg.html"class="navbar-item">
+              Leg
+            </a>
+
+          </div>
+
+          
+        </div>
+        <a href="/html/contactanos.html"class="navbar-item">
+            Contáctanos
+        </a>
+
+
+
+
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="/html/registros/inicio-sesion.html" class="button is-dark">
+              <img src="/assets/images/login-icon.png" width="25" height="250">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="hero is-contact is-fullheight">
+    <h1>CONTÁCTANOS</h1>
+    <input type="text" class="NombreContacUs" placeholder="Nombre(s)" required>
+    <input type="text" class="ApellidoContactUs" placeholder="Apellido(s)" required>
+    <select class="LadaTelefono" required>
+      <option>------</option>
+      <option>+52</option>
+      <option>+54</option>
+      <option>+55</option>
+      <option>+56</option>
+      <option>+57</option>
+    </select>
+    <input type="text" class="TelefonoContactUs" placeholder="Número Telefónico" required>
+    <input type="email" class="CorreoContactUs" name="email" id="email"placeholder="Correo electrónico" requeired>
+    <textarea class="ComentariosContactUs" cols="40" rows="10" placeholder="Escribe tus comentarios"></textarea>
+    <input type="submit" class="ButtonContactUs" onclick="FormularioContactUs()" >Enviar</input>
+
+  </section>
+  <footer class="footer"> <!--This is the footer-->
+    <div class="content has-text-centered">
+      <p>Síguenos en <a href="https://www.instagram.com/leo.td.v/" target="_blank"><strong>Instagram</strong></a>. y en nuestras otras redes sociales como
+        <a href="http://twitter.com/leo_td_v" target="_blank"><strong>Twitter</strong></a> y <a href="https://www.facebook.com/LeonardoaToledo"target="_blank"><strong>Facebook</strong></a>.
+      </p>
+      <p>Copyright ©  All right reserved.</p>
+    </div>
+  </footer>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bahiana&family=Spline+Sans+Mono:wght@300&display=swap');
+
+.navbar.is-dark a{
+font-family: 'Bahiana' ;
+font-size: 22px;
+}
+
+.hero.is-fullheight h1{
+    position: absolute;
+    top: 12%;
+    left: 42%;
+    font-family: 'Anton';
+    color:white;
+    font-size: 50px;
+}

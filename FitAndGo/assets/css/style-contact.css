@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bahiana&family=Spline+Sans+Mono:wght@300&display=swap');
+
+.navbar.is-dark a{
+font-family: 'Bahiana' ;
+font-size: 22px;
+}
+
+.hero.is-fullheight h1{
+    position: absolute;
+    top: 12%;
+    left: 42%;
+    font-family: 'Anton';
+    color:white;
+    font-size: 50px;
+}
+
+.NombreContacUs {
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    width: 28%;
+    border: 1px solid gray;
+    padding: 11px 20px;
+    background: #efe9e9;
+    font-size: 14px;
+    font-family:'Anton';
+}
+
+.ApellidoContactUs {
+    position: absolute;
+    top: 35%;
+    left: 36%;
+    width: 28%;
+    border: 1px solid gray;
+    padding: 11px 20px;
+    background: #efe9e9;
+    font-size: 14px;
+    font-family:'Anton';
+}
+
+.LadaTelefono {
+    position: absolute;
+    top: 45%;
+    left: 36%;
+    width: 5%;
+    border: 1px solid gray;
+    background: #efe9e9;
+    font-size: 14px;
+    font-family:'Anton';
+    height:44.5px;
+}
+
+.TelefonoContactUs {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    width: 24%;
+    border: 1px solid gray;
+    padding: 11px 11px;
+    background: #efe9e9;
+    font-size: 14px;
+    font-family:'Anton';
+}
+.CorreoContactUs{
+    position: absolute;
+    top: 55%;
+    left: 36%;
+    width: 28%;
+    border: 1px solid gray;
+    padding: 11px 20px;
+    background: #efe9e9;
+    font-size: 14px;
+    font-family:'Anton';
+}
+.ComentariosContactUs{
+    position: absolute;
+    top: 65%;
+    left: 36%;
+    width: 28%;
+    border: 1px solid gray;
+    background: #efe9e9;
+    font-size: 14px;
+    font-family:'Anton';
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    min-height: 28%;
+    max-height: 31.5%;
+    max-width: 28%;
+}
+
+.ButtonContactUs{
+    position: absolute;
+    top: 97%;
+    left: 42.5%;
+    width: 15%;
+    border: 1px solid #414449; 
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #4c4f52; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Anton'; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    font-size: 20px;
+    cursor: pointer;
+}
+.ButtonContactUs a{
+color: white;
+}
+
+input[type="submit"]:hover{
+    border-color:rgb(255, 255, 255);
+    transition: .5s;
+}
+
+

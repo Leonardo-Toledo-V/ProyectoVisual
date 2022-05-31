@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bahiana&family=Playfair+Display&family=Roboto:wght@100&display=swap');
+.navbar.is-dark a{
+    font-family: 'Bahiana' ;
+    font-size: 22px;
+    }
+      
+      .navegacion{
+        width: 1440px;
+        margin: -17px -10px;
+        background: #1d1d1d;
+      }
+      
+      .navegacion ul{
+        list-style: none;
+      }
+      
+      .menu > li{
+        position: relative;
+        display: inline-block;
+      }
+      
+      .menu > li > a{
+        display: block;
+        padding: 15px 20px;
+        color: white;
+        font-family: 'Bahiana';
+        text-decoration: none;
+      }
+      
+      .menu li a:hover{
+        color: #188a73;
+        transition: all .3s;
+      }
+      
+.imagenpush{
+    position: absolute;
+    max-height:820px;
+    max-width: 920px;
+  }
+
+.Parrafo{
+    position: absolute;
+    left: 4%;
+    top: 20%;
+    color:white;
+    text-align: justify;
+    padding-right: 5%;
+    font-family: 'Playair Display';
+  }
+
+ .Parrafo2{
+  position: absolute;
+  left: 5%;
+  top: 55%;
+  color:white;
+  padding-right:5% ;
+  text-align: justify;
+  font-family: 'Playair Display';
+ } 
+
+.TituloLeg  {
+    position: absolute;
+    left: 4%;
+    top: 10%;
+    color: #FF914D;
+    font-size: 25px;
+    font-family: 'Playair Display';
+  }
+
+.PruebaUL{
+  padding-right: 5%;
+  text-align: justify;
+  position: absolute;
+  left: 4%;
+  top: 30%;
+  color:white;
+  font-family: 'Playair Display';
+}
+
+.AreaDeTexto{
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    box-sizing:border-box;
+    width: 800px;
+    height: 800px;
+    background:rgb(0, 0, 0);
+    box-shadow: 0px 0px 50px #FF914D;
+    padding: 20px 30px;
+    border-top: 10px solid #FF914D;
+    color: rgb(146, 21, 21);
+    border-radius:15px;
+}
+.Parrafo2 strong{
+  color:#FF914D;
+}
+
+.Parrafo strong{
+    color:#FF914D;
+}

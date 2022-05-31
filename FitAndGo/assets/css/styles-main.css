@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
+
+
+.navbar.is-dark a{
+font-family: 'Bahiana' ;
+font-size: 22px;
+}
+  
+  .navegacion{
+    width: 1440px;
+    margin: -17px -10px;
+    background: #1d1d1d;
+  }
+  
+  .navegacion ul{
+    list-style: none;
+  }
+  
+  .menu > li{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Bahiana';
+    text-decoration: none;
+  }
+  
+  .menu li a:hover{
+    color: #188a73;
+    transition: all .3s;
+  }
+  
+  /* Submenu*/
+  
+  .submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  
+  .submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Bahiana';
+    text-decoration: none;
+  }
+  
+  .menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+
+.slider {
+	width: 100%;
+    margin-top: 0.1%;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}

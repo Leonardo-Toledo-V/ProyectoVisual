@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="/assets/css/registro-css/styles-register.css"/>
+    <link rel="stylesheet" href="/assets/bulma/css/bulma.css"/>
+    <script src="/assets/js/register.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/html/main.html">
+        <img src="/assets/images/logon.png" width="40" height="50">
+      </a>
+
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Rutinas
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a href="/html/rutinas/push.html"class="navbar-item">
+              Push
+            </a>
+            <a href="/html/rutinas/pull.html"class="navbar-item">
+              Pull
+            </a>
+            <a href="/html/rutinas/leg.html"class="navbar-item">
+              Leg
+            </a>
+
+          </div>
+
+          
+        </div>
+        <a href="/html/contactanos.html"class="navbar-item">
+            Contáctanos
+        </a>
+
+
+
+
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="/html/registros/inicio-sesion.html" class="button is-dark">
+              <img src="/assets/images/login-icon.png" width="25" height="250">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-register is-fullheight">
+        <section class="FormularioRegistro">
+          <h5>REGISTRO</h5>
+          <input class="ControlesRegistro" type="email" name="correo" id="correo" placeholder="Correo electrónico" required>
+          <input class="ControlesRegistro" type="text" name="usuario" id="usuario" placeholder="Usuario" required>
+          <input class="ControlesRegistro" type="password" name="contrasena" id="contrasena" placeholder="Contraseña" required> <br>
+          <a href="/html/registros/inicio-sesion.html">¿Ya tienes una cuenta?</a><br><br>
+          <input type="submit" name="btnRegistro" id="btnRegistro" onclick="validarRegistro()" value="Verificar">
+        </section>
+  </section>
+  <footer class="footer"> <!--This is the footer-->
+    <div class="content has-text-centered">
+      <p>Síguenos en <a href="https://www.instagram.com/leo.td.v/" target="_blank"><strong>Instagram</strong></a>. y en nuestras otras redes sociales como
+        <a href="http://twitter.com/leo_td_v" target="_blank"><strong>Twitter</strong></a> y <a href="https://www.facebook.com/LeonardoaToledo"target="_blank"><strong>Facebook</strong></a>.
+      </p>
+      <p>Copyright ©  All right reserved.</p>
+    </div>
+  </footer>
+    
+</body>
+</html>
+
+

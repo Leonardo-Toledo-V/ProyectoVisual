@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bahiana&family=Spline+Sans+Mono:wght@300&display=swap');
+
+
+.navbar.is-dark a{
+font-family: 'Bahiana' ;
+font-size: 22px;
+}
+
+.FormularioRegistro {
+  position: absolute;
+  top: 25%;
+  left: 36%;
+    box-sizing:border-box;
+    width: 400px;
+    height: 380px;
+    background:rgb(228, 222, 222);
+    box-shadow: 0px 0px 100px rgb(0, 0, 0);
+    padding: 20px 30px;
+    border-top: 10px solid #1e2121;
+    border-radius:15px;
+  }
+  
+  .FormularioRegistro h5 {
+    color:gray;
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid;
+    border-color: #1e2121;
+    font-size: 23px;
+    font-family:'Anton';
+  }
+  
+
+
+ .ControlesRegistro {
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+    padding: 11px 25px;
+    background: #efe9e9;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  input[type="submit"]{
+    width:100%;
+    height:50px;
+    border:1px solid;
+    background: #1e2121;
+    border-radius:25px;
+    font-size: 18px;
+    color:white;
+    cursor:pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ input[type="submit"]:hover{
+     border-color:rgb(53, 6, 6);
+     transition: .5s;
+ }
+
+ .FormularioRegistro a{
+  color: rgb(0, 0, 255);
+  font-size: 13px;
+}
+
+
